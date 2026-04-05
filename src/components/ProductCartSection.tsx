@@ -30,13 +30,13 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
       <div className="flex justify-center mb-12">
         <div className="join bg-base-200 p-1 rounded-full">
           <button 
-            className={`join-item btn btn-lg rounded-full px-8 border-none ${activeTab === 'products' ? 'btn-primary text-secondary' : 'btn-ghost'}`}
+            className={`join-item btn btn-lg rounded-full px-8 border-none ${activeTab === 'products' ? 'btn bg-[#17174B] text-white' : 'btn-ghost'}`}
             onClick={() => setActiveTab('products')}
           >
             <Package className="w-5 h-5 mr-2" /> Products
           </button>
           <button 
-            className={`join-item btn btn-lg rounded-full px-8 border-none ${activeTab === 'cart' ? 'btn-primary text-secondary' : 'btn-ghost'}`}
+            className={`join-item btn btn-lg rounded-full px-8 border-none ${activeTab === 'cart' ? 'btn bg-[#F16B14] text-white' : 'btn-ghost'}`}
             onClick={() => setActiveTab('cart')}
           >
             <ShoppingBag className="w-5 h-5 mr-2" /> Cart ({cart.length})
@@ -65,22 +65,22 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
                   />
                   <button 
                     onClick={() => setSelectedProduct(product)}
-                    className="absolute top-6 right-6 btn btn-circle btn-sm btn-primary text-secondary opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="absolute top-6 right-6 btn btn-circle btn-sm  bg-[#17174B] text-white opacity-0 group-hover:opacity-100 transition-opacity"
                   >
                     <Info className="w-4 h-4" />
                   </button>
                 </figure>
                 <div className="card-body">
                   <div className="flex justify-between items-start">
-                    <h2 className="card-title text-xl font-bold text-secondary">{product.name}</h2>
-                    <span className="badge badge-primary badge-outline">{product.category}</span>
+                    <h2 className="card-title text-xl font-bold text-[#FF5733]">{product.name}</h2>
+                    <span className="badge border-[#FF5733] text-[#FF5733] badge-outline">{product.category}</span>
                   </div>
                   <p className="text-gray-500 text-sm line-clamp-2">{product.description}</p>
                   <div className="card-actions justify-between items-center mt-4">
-                    <span className="text-2xl font-black text-primary">{product.price} BDT</span>
+                    <span className="text-2xl font-black text-[#17174B]">{product.price} BDT</span>
                     <button 
                       onClick={() => onAddToCart(product)}
-                      className="btn btn-primary btn-sm rounded-full text-secondary font-bold"
+                      className="btn bg-[#FF5733] btn-sm rounded-full text-white font-bold"
                     >
                       Add to Cart
                     </button>
@@ -100,11 +100,11 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
             {cart.length === 0 ? (
               <div className="text-center py-20">
                 <ShoppingBag className="w-20 h-20 mx-auto text-gray-300 mb-4" />
-                <h3 className="text-2xl font-bold mb-2 text-secondary">Your cart is empty</h3>
+                <h3 className="text-2xl font-bold mb-2 text-[#17174B]">Your cart is empty</h3>
                 <p className="text-gray-500 mb-6">Looks like you haven't added any gadgets yet.</p>
                 <button 
                   onClick={() => setActiveTab('products')}
-                  className="btn btn-primary rounded-full px-8 text-secondary font-bold"
+                  className="btn bg-[#FF5733] rounded-full px-8 text-white font-bold"
                 >
                   Start Shopping
                 </button>
@@ -121,8 +121,8 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
                         referrerPolicy="no-referrer"
                       />
                       <div className="flex-grow">
-                        <h4 className="font-bold text-lg text-secondary">{item.name}</h4>
-                        <p className="text-primary font-bold">{item.price} BDT</p>
+                        <h4 className="font-bold text-lg text-[#17174B]">{item.name}</h4>
+                        <p className="text-[#17174B] font-bold">{item.price} BDT</p>
                       </div>
                       <div className="flex items-center gap-3">
                         <div className="join bg-base-100 border border-base-300">
