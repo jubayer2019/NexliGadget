@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Ultra HD Smart Watch",
+    "price": 12500,
+    "image": "https://picsum.photos/seed/watch/400/400",
+    "description": "Advanced fitness tracking and crystal clear display. Features heart rate monitoring, GPS, and water resistance up to 50m.",
+    "category": "Wearables"
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "price": 24500,
+    "image": "https://picsum.photos/seed/headphones/400/400",
+    "description": "Immersive sound quality with active noise cancellation. Enjoy up to 30 hours of battery life and quick charging capabilities.",
+    "category": "Audio"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Charging Pad",
+    "price": 3500,
+    "image": "https://picsum.photos/seed/charger/400/400",
+    "description": "Fast charging for all your Qi-enabled devices. Sleek design with non-slip surface and LED indicator.",
+    "category": "Accessories"
+  },
+  {
+    "id": 4,
+    "name": "Portable Bluetooth Speaker",
+    "price": 7500,
+    "image": "https://picsum.photos/seed/speaker/400/400",
+    "description": "Waterproof speaker with 20-hour battery life. Powerful bass and 360-degree sound for any environment.",
+    "category": "Audio"
+  },
+  {
+    "id": 5,
+    "name": "Mechanical Gaming Keyboard",
+    "price": 14500,
+    "image": "https://picsum.photos/seed/keyboard/400/400",
+    "description": "RGB lighting and responsive mechanical switches. Durable aluminum frame and customizable macro keys.",
+    "category": "Gaming"
+  },
+  {
+    "id": 6,
+    "name": "Ergonomic Gaming Mouse",
+    "price": 5500,
+    "image": "https://picsum.photos/seed/mouse/400/400",
+    "description": "High-precision sensor and customizable buttons. Ergonomic design for long gaming sessions with adjustable DPI.",
+    "category": "Gaming"
+  }
+]

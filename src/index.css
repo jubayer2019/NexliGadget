@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-primary: #f37021; /* Vibrant Orange */
+  --color-secondary: #0a113d; /* Deep Navy Blue */
+  --color-accent: #f37021;
+  --color-neutral: #0a113d;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-[#0a113d];
+  }
+}
