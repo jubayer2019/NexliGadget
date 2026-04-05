@@ -4,24 +4,24 @@ import { Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: "Alex Johnson",
-    role: "Tech Enthusiast",
-    content: "The quality of the smart watch I bought is beyond my expectations. Highly recommended!",
-    avatar: "https://i.pravatar.cc/150?u=alex"
+    name: "Rohan Hasan",
+    role: "",
+    content: "A total lifesaver for study notes! It's super fast, ink-free, and fits right in my pocket for quick diagrams.",
+    avatar: "https://cdn-icons-png.flaticon.com/512/6596/6596121.png"
   },
   {
     id: 2,
-    name: "Sarah Miller",
-    role: "Digital Nomad",
-    content: "Fast shipping and excellent customer support. The headphones are perfect for my travels.",
-    avatar: "https://i.pravatar.cc/150?u=sarah"
+    name: "M H Hasan",
+    role: "",
+    content: "Perfect for professional receipts on the go. The Bluetooth is seamless and the battery life is impressive!",
+    avatar: "https://cdn-icons-png.flaticon.com/512/6596/6596121.png"
   },
   {
     id: 3,
-    name: "David Chen",
-    role: "Gamer",
-    content: "The mechanical keyboard is a game changer. The responsiveness is incredible.",
-    avatar: "https://i.pravatar.cc/150?u=david"
+    name: "Aireen Maria",
+    role: "",
+    content: "Obsessed with this for my scrapbooking. The app is so easy to use and the sticker quality is surprisingly crisp!",
+    avatar: "https://cdn-icons-png.flaticon.com/512/6596/6596121.png"
   }
 ];
 

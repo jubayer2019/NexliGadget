@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ProductCartSection } from './components/ProductCartSection';
@@ -13,6 +13,11 @@ export default function App() {
   const [cart, setCart] = useState<CartItem[]>([]);
   const [activeTab, setActiveTab] = useState<'products' | 'cart'>('products');
   const [showToast, setShowToast] = useState(false);
+
+  // Function to empty the cart
+  const handleClearCart = () => {
+    setCart([]); 
+  };
 
   const handleAddToCart = (product: Product) => {
     setCart(prevCart => {
@@ -53,6 +58,7 @@ export default function App() {
     }
   };
 
+  // This is the ONLY return statement you should have
   return (
     <div className="min-h-screen bg-base-100 font-sans selection:bg-primary selection:text-white">
       <Navbar 
@@ -70,10 +76,10 @@ export default function App() {
           onAddToCart={handleAddToCart}
           onRemoveFromCart={handleRemoveFromCart}
           onUpdateQuantity={handleUpdateQuantity}
+          onClearCart={handleClearCart} // Pass the clear function here
         />
         
         <Testimonials />
-        
         <ContactForm />
       </main>
       
@@ -97,4 +103,3 @@ export default function App() {
     </div>
   );
 }
-

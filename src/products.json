@@ -1,50 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Ultra HD Smart Watch",
-    "price": 12500,
-    "image": "https://picsum.photos/seed/watch/400/400",
-    "description": "Advanced fitness tracking and crystal clear display. Features heart rate monitoring, GPS, and water resistance up to 50m.",
-    "category": "Wearables"
+    "name": "Remote Control Starfighter Drone Plane – Blue",
+    "price": 1990,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/08/white-Photoroom-Photoroom-10-1.jpg",
+    "description": "Material: EPP Foam \nWingspan: Approximately 60–80 cm Power \nSource: Electric Brushless Motor Battery \nRequirement: 3x AA batteries for remote control (not included) \nFlight Time: Approximately 8–12 minutes per charge \nCharging Time: Approximately 60–90 minutes via USB Control \nDistance: Approximately 60 meters 7 days replacement warranty",
+    "category": "Drones"
   },
   {
     "id": 2,
-    "name": "Noise Cancelling Headphones",
-    "price": 24500,
-    "image": "https://picsum.photos/seed/headphones/400/400",
-    "description": "Immersive sound quality with active noise cancellation. Enjoy up to 30 hours of battery life and quick charging capabilities.",
-    "category": "Audio"
+    "name": "Smart Scalp massager For Pet & Human",
+    "price": 990,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/09/IMG_7048.jpg",
+    "description": "Multifunctional Use \nPromotes Hair Growth & blood circulation. \nDeep Cleaning Effect \nStress Relief & Better Sleep \n7 Days Replacement Warranty",
+    "category": "Massager"
   },
   {
     "id": 3,
-    "name": "Wireless Charging Pad",
-    "price": 3500,
-    "image": "https://picsum.photos/seed/charger/400/400",
-    "description": "Fast charging for all your Qi-enabled devices. Sleek design with non-slip surface and LED indicator.",
+    "name": "D16 Air Humidifier with Night Light — 180 ML Ultrasonic Cool Mist Humidifier & Aromatherapy Diffuser",
+    "price": 699,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2026/01/deal_1767687521_695cc5619c667.jpg",
+    "description": "Model: D16 Air Humidifier with Night Light \nCapacity: 180 ML water tank \nHumidification Method: Ultrasonic cool mist \nFlame mode: continuous mist \nVolcano mode: intermittent, jellyfish-like mist \n7 Days Replacement Warranty",
     "category": "Accessories"
   },
   {
     "id": 4,
-    "name": "Portable Bluetooth Speaker",
-    "price": 7500,
-    "image": "https://picsum.photos/seed/speaker/400/400",
-    "description": "Waterproof speaker with 20-hour battery life. Powerful bass and 360-degree sound for any environment.",
-    "category": "Audio"
+    "name": "Instant Print Digital Kids Camera Printer – Masha Version",
+    "price": 2550,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2024/12/digital-print-camera-masha-800x800.webp",
+    "description": "Masha Version \n1080P HD Camera \nCharging time: 2-3 hours \nWorking time: about 4 hours (depending on the use) \n7 days replacement warranty",
+    "category": "Printer"
   },
   {
     "id": 5,
-    "name": "Mechanical Gaming Keyboard",
-    "price": 14500,
-    "image": "https://picsum.photos/seed/keyboard/400/400",
-    "description": "RGB lighting and responsive mechanical switches. Durable aluminum frame and customizable macro keys.",
-    "category": "Gaming"
+    "name": "Gearup Thermal Printer & Thermal Paper Rolls Combo",
+    "price": 1650,
+    "image": "https://www.bdshop.com/assets/images/products/thermal-printer/product_14531_main.webp",
+    "description": "Brand: GearUP \nColor Variant: Blue and Pink \nThermal Printer & Paper Combo \n6 Months Replacement Warranty ",
+    "category": "Printer"
   },
   {
     "id": 6,
-    "name": "Ergonomic Gaming Mouse",
-    "price": 5500,
-    "image": "https://picsum.photos/seed/mouse/400/400",
-    "description": "High-precision sensor and customizable buttons. Ergonomic design for long gaming sessions with adjustable DPI.",
-    "category": "Gaming"
+    "name": "Baseus Adaman 22.5w 20000mAh Quick Charge Power Bank",
+    "price": 2250,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2023/03/Baseus.Adaman.2000mAh.BDSHOP.jpg.1.jpg",
+    "description": "Brand: Baseus \nName: Power Bank\nModel: PPADMA\nBattery capacity: 20000mAh/3.7V 74Wh\nRated capacity: 12000mAh\nEnergy conversion rate: ≥ 75%\nInput iP: 5V 2A,9V 2A Max.\nMicro: 5V 2A,9V 2A Max.\nType-C: 5V/3A 5.5V/3A（SCP） 9V/2A Max.\nOutput USB1: 4.5V 5A,5V 4.5A,5V 3A,9V 2A,12V 1.5A Max.\nUSB2: 4.5V 5A,5V 4.5A,5V 3A,9V 2A,12V 1.5A Max.\nType-C: 5V 3A,9V 2A,12V 1.5A Max.\nUSB1+USB2: 5V 3A Max.\nUSB1+Type-C: 5V 3A Max.\nUSB2+Type-C: 5V 3A Max. \nType-C+USB1+USB2 Total output power：5V 3A Max.",
+    "category": "PowerBank"
+  },
+  {
+    "id": 7,
+    "name": "GearUP Acrylic Multicolor Night Lamp (BTS) – BLACK",
+    "price": 700,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2024/10/BTS.png",
+    "description": "Brand: GearUP \nDesign: BTS \n7 Changeable Color Mode \n6 Months replacement warranty(Only For Base) \nNote: Product Appearance may little different than the picture.",
+    "category": "NightLamp"
+  },
+  {
+    "id": 8,
+    "name": "Soft Silicone Touch Control Rechargeable LED Taxi Night Lamp",
+    "price": 1250,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/10/Soft-Silicone-Touch-Control-LED-Taxi-Night-Lamp.webp",
+    "description": "1200mAh Battery \nCharging Time:2-3 Hours \nWorking Time:4-6 Hours \nRechargeable Taxi Shape Night Lamp \n7 days replacement warranty ( If there are any manufacturing defects)",
+    "category": "NightLamp"
+  },
+  {
+    "id": 9,
+    "name": "Jisulife F8 Hand Fan 2000mAh",
+    "price": 1400,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/image-upscaled-4-1.webp",
+    "description": "Brand: JISULIFE \nModel Number: F8\n Battery Capacity: 2000mAh (Lithium-ion) \nNumber of Speeds: 2 \nRuntime: 12-21 hours \nCharging Time: 2-3 hours \nColor Family: Green, Black, Brown \n7 days replacement warranty",
+    "category": "MiniFan"
   }
 ]
