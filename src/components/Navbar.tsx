@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, onCartClick }) => {
           <div className="indicator">
             <ShoppingCart className="w-6 h-6" />
             {cartCount > 0 && (
-              <span className="badge badge-sm badge-primary indicator-item">{cartCount}</span>
+              <span className="badge badge-sm bg-[#FF5733] text-white indicator-item">{cartCount}</span>
             )}
           </div>
         </button>

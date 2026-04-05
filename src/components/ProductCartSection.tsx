@@ -152,23 +152,23 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
                 </div>
                 
                 <div className="lg:w-80 bg-base-200 p-6 rounded-3xl h-fit">
-                  <h3 className="text-xl font-bold mb-6 text-secondary">Order Summary</h3>
+                  <h3 className="text-xl font-bold mb-6 text-[#17174B]">Order Summary</h3>
                   <div className="space-y-4 mb-6">
                     <div className="flex justify-between">
                       <span className="text-gray-500">Subtotal</span>
-                      <span className="font-bold text-secondary">{cartTotal} BDT</span>
+                      <span className="font-bold text-[#17174B]">{cartTotal} BDT</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-500">Delivery Charge</span>
-                      <span className="font-bold text-secondary">{deliveryCharge} BDT</span>
+                      <span className="font-bold text-[#17174B]">{deliveryCharge} BDT</span>
                     </div>
                     <div className="divider"></div>
                     <div className="flex justify-between text-xl">
-                      <span className="font-bold text-secondary">Total</span>
-                      <span className="font-black text-primary">{(cartTotal + deliveryCharge)} BDT</span>
+                      <span className="font-bold text-[#17174B]">Total</span>
+                      <span className="font-black text-[#FF5733]">{(cartTotal + deliveryCharge)} BDT</span>
                     </div>
                   </div>
-                  <button className="btn btn-primary w-full rounded-full btn-lg text-secondary font-bold">
+                  <button className="btn bg-[#FF5733] w-full rounded-full btn-lg text-white font-bold">
                     Checkout Now
                   </button>
                 </div>
@@ -190,7 +190,7 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
             >
               <button 
                 onClick={() => setSelectedProduct(null)}
-                className="btn btn-sm btn-circle absolute right-4 top-4 z-50 bg-secondary text-white border-none"
+                className="btn btn-sm btn-circle absolute right-4 top-4 z-50 bg-[#17174B] text-white border-none"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -205,19 +205,19 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
                   />
                 </div>
                 <div className="md:w-1/2 p-8 flex flex-col justify-center">
-                  <span className="badge badge-primary badge-outline mb-4">{selectedProduct.category}</span>
-                  <h3 className="text-3xl font-black text-secondary mb-4">{selectedProduct.name}</h3>
+                  <span className="badge border-[#FF5733] text-[#FF5733] badge-outline mb-4">{selectedProduct.category}</span>
+                  <h3 className="text-3xl font-black text-[#FF5733] mb-4">{selectedProduct.name}</h3>
                   <p className="text-gray-500 mb-8 leading-relaxed">
                     {selectedProduct.description}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-3xl font-black text-primary">{selectedProduct.price} BDT</span>
+                    <span className="text-3xl font-black text-[#17174B]">{selectedProduct.price} BDT</span>
                     <button 
                       onClick={() => {
                         onAddToCart(selectedProduct);
                         setSelectedProduct(null);
                       }}
-                      className="btn btn-primary rounded-full px-8 text-secondary font-bold"
+                      className="btn bg-[#FF5733] rounded-full px-8 text-white font-bold"
                     >
                       Add to Cart
                     </button>
@@ -225,7 +225,7 @@ export const ProductCartSection: React.FC<ProductCartSectionProps> = ({
                 </div>
               </div>
             </motion.div>
-            <div className="modal-backdrop bg-secondary/80" onClick={() => setSelectedProduct(null)}></div>
+            <div className="modal-backdrop bg-[#17174B]/80" onClick={() => setSelectedProduct(null)}></div>
           </div>
         )}
       </AnimatePresence>

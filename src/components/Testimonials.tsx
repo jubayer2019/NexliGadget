@@ -30,20 +30,20 @@ export const Testimonials: React.FC = () => {
     <section className="py-20 bg-base-200">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-black mb-4 uppercase tracking-tighter">What Our <span className="text-primary">Customers</span> Say</h2>
+          <h2 className="text-4xl font-black mb-4 uppercase tracking-tighter">What Our <span className="text-[#FF5733]">Customers</span> Say</h2>
           <p className="text-gray-500">Don't just take our word for it, hear from our community.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t) => (
             <div key={t.id} className="card bg-base-100 shadow-xl relative overflow-visible">
-              <div className="absolute -top-4 -left-4 bg-primary p-3 rounded-full text-white shadow-lg">
+              <div className="absolute -top-4 -left-4 bg-[#FF5733] p-3 rounded-full text-white shadow-lg">
                 <Quote className="w-6 h-6" />
               </div>
               <div className="card-body pt-10">
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    <Star key={i} className="w-4 h-4 fill-[#FF5733] text-[#FF5733]" />
                   ))}
                 </div>
                 <p className="italic text-gray-600 mb-6">"{t.content}"</p>
