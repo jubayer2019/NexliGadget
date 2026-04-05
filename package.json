@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nexligadget.com",
+   "description": "NexliGadget is a one-stop online store for all your gadget needs. We offer a wide range of high-quality gadgets, including massagers, humidifiers, printers, power banks, night lamps, and mini fans. Our products are designed to enhance your lifestyle and provide convenience in your daily activities. With our user-friendly website and secure payment options, shopping with us is easy and hassle-free. We are committed to providing excellent customer service and ensuring that you have a great shopping experience with us.",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
