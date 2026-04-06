@@ -5,6 +5,7 @@ import { ProductCartSection } from './components/ProductCartSection';
 import { Testimonials } from './components/Testimonials';
 import { ContactForm } from './components/ContactForm';
 import { Footer } from './components/Footer';
+import { WhatsAppButton } from './components/WhatsAppButton';
 import { Product, CartItem } from './types';
 import { CheckCircle2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -84,6 +85,7 @@ export default function App() {
       </main>
       
       <Footer />
+      <WhatsAppButton />
 
       <AnimatePresence>
         {showToast && (

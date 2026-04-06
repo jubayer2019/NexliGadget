@@ -70,5 +70,29 @@
     "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/image-upscaled-4-1.webp",
     "description": "Brand: JISULIFE \nModel Number: F8\n Battery Capacity: 2000mAh (Lithium-ion) \nNumber of Speeds: 2 \nRuntime: 12-21 hours \nCharging Time: 2-3 hours \nColor Family: Green, Black, Brown \n7 days replacement warranty",
     "category": "MiniFan"
+  },
+  {
+    "id": 10,
+    "name": "JYSUPER JY-2218 AC/DC Rechargeable 4000mAh Mini Desk Fan",
+    "price": 1250,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/03/image-upscaled-2.webp",
+    "description": "Model: JYSUPER JY-2218\nFan Size: 12 inches\nBattery Capacity: 4000mAh\nSpeed Settings: Low, Medium, High\nColor: Random\n7 days replacement warranty",
+    "category": "MiniFan"
+  },
+  {
+    "id": 11,
+    "name": "Anker Nano 45W GaN Fast Charger with Smart Display",
+    "price": 2650,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2026/03/product_1773115908_69af9a0420035.jpg",
+    "description": "Brand: Anker\nModel: Nano 45W (A121D)\nOutput Power: 45W Max\nPorts: 1 × USB-C\nProtocols: PD 3.0, PPS 2.0, QC 3.0, Apple 2.4A\n7 Days Replacement Warranty (If there are any Manufacturing Defects)",
+    "category": "Charger"
+  },
+  {
+    "id": 12,
+    "name": "Anker 100W Smart Display Fast Charger Lite (B121B) – Chinese Version",
+    "price": 4000,
+    "image": "https://dropshop.com.bd/wp-content/uploads/2025/10/2025-10-07-13.17.jpg",
+    "description": "Model: B121B\nTotal Output: 100W Max\nInput: 100–240V, ~50/60Hz, 2.3A Max\nDimensions: 69 × 55 × 34 mm\nWeight: 205–210 g \n06 months replacement warranty for manufacturing defects",
+    "category": "Charger"
   }
 ]
